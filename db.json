@@ -1,9 +1,43 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "seller": [
+    {
+      "id": "120f",
+      "name": "João Batuta",
+      "email": "joaobat@batuta.com.br",
+      "phone": "11942238181",
+      "login": "joaobat@batuta.com.br",
+      "password": "123",
+      "costumers": [
+        {
+          "name": "Dimas Alves Pereira",
+          "email": "dimasdevspro@gmail.com",
+          "phone": "11932228112",
+          "id": "4ef7aaad-9b5d-4220-b660-996385b918e3"
+        },
+        {
+          "name": "Soberana Alves",
+          "email": "sobalves@soberana.com.br",
+          "phone": "11932528183",
+          "id": "89fcfe35-de5c-428f-9641-60de207ac36d"
+        },
+        {
+          "name": "Sara Mantra",
+          "email": "saramantra@mantra.com.br",
+          "phone": "11952228989",
+          "id": "ad070db6-c2cb-48d5-a826-502a253b61b4"
+        }
+      ]
+    },
+    {
+      "id": "c8a1",
+      "name": "Dimas Alves Pereira",
+      "email": "dimasdevspro@gmail.com",
+      "phone": "11932228112",
+      "login": "dimasdevspro@gmail.com",
+      "password": "123",
+      "costumers": [
+
+      ]
+    }
+  ]
 }
